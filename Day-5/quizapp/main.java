@@ -6,6 +6,7 @@ public class main {
 		//game
 		//question
 		//player
+		System.out.println("Marvel Quiz");
 		Game game=new Game();
         game.initGame();
         game.play();

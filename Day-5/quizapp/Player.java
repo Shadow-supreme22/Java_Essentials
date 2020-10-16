@@ -8,7 +8,7 @@ public class Player {
 
     public void getDetails(){
 
-        System.out.println("Enter player name");
+        System.out.println("Enter Player's name: ");
         name=sc.next();
         }
 }

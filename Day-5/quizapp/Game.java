@@ -4,12 +4,12 @@ public class Game {
 	Question[] questions=new Question[3];
     Player player=new Player();
 
-    String[] questionsdata={"Who is the Strongest Avenger?","What is the closest planet to sun?","What is the capital of australia?"};
-    String[] options1={"Ironman","Earth","Sydney"};
-    String[] options2={"Thor","Venus","Perth"};
-    String[] options3={"Hulk","Mercury","Melbourne"};
-    String[] options4={"Dr Strange","Jupiter","Canberra"};
-    int[] answers={2,3,4};
+    String[] questionsdata={"Who is the Strongest Avenger?","What is Captain America’s shield made of?","Before becoming Vision, what is the name of Iron Man’s A.I. butler?"};
+    String[] options1={"Ironman","Adamantium","H.O.M.E.R."};
+    String[] options2={"Thor","Vibranium","A.L.F.R.E.D."};
+    String[] options3={"Hulk","Promethium","M.A.R.V.I.N."};
+    String[] options4={"Dr Strange","Carbonadium","J.A.R.V.I.S."};
+    int[] answers={2,2,4};
 
 
     public void initGame()
@@ -18,6 +18,7 @@ public class Game {
         for(int i=0;i<3;i++){
             questions[i]=new Question();
         }
+
 
         for(int i=0;i<3;i++)
         {
